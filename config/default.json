@@ -4,11 +4,11 @@
   },
   "system": {
     "database": {
-      "host": "ep-empty-firefly-a5zpeg74-pooler.us-east-2.aws.neon.tech",
-      "port": 5432,
-      "database": "neondb",
-      "user": "neondb_owner",
-      "password": "npg_intrjm94bdxX",
+      "host": "${DB_HOST}",
+      "port": "${DB_PORT}",
+      "database": "${DB_NAME}",
+      "user": "${DB_USER}",
+      "password": "${DB_PASSWORD}",
       "ssl": true
     }
   },
