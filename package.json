@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
-    "build": "evershop build",
     "start": "evershop start",
+    "build": "evershop build",
     "dev": "evershop dev"
   },
   "author": "sharath",

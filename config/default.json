@@ -1,6 +1,18 @@
 {
-    "shop": {
-      "currency": "INR"
+  "shop": {
+    "currency": "INR"
+  },
+  "system": {
+    "database": {
+      "host": "ep-odd-salad-a1un11dz.ap-southeast-1.aws.neon.tech",
+      "port": 5432,
+      "database": "neondb",
+      "user": "neondb_owner",
+      "password": "npg_jsfAn19HGmEX",
+      "ssl": true
     }
-    
-} 
+  },
+  "server": {
+    "port": "process.env.PORT || 3000"
+  }
+}
