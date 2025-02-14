@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
     "build": "evershop build",
-    "start": "evershop start"
+    "start": "evershop start",
+    "dev": "evershop dev"
   },
   "author": "sharath",
   "license": "ISC",
